@@ -8,7 +8,7 @@ export default function ServiceCard({ service }: ServiceCardProps) {
   const Icon = service.icon;
 
   return (
-    <div className="card bg-base-100 shadow-md hover:shadow-xl transition-shadow duration-300">
+    <div className="card bg-base-100/65 shadow-md hover:shadow-xl transition-shadow duration-300">
       <div className="card-body items-center text-center">
         
         {/* Icon */}
