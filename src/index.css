@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes : night, cupcake, synthwave, retro, cyberpunk, valentine, halloween, garden, forest, winter;
+};
