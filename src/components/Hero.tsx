@@ -3,7 +3,7 @@ import heroImage from "../assets/images/hero-event.jpg";
 
 export default function Hero() {
   return (
-    <section id="home" className="hero min-h-[90vh] bg-transparent">
+    <section id="home" className="hero min-h-[60vh] bg-transparent">
       <div className="hero-content w-full max-w-7xl mx-auto flex-col lg:flex-row-reverse gap-10 px-4">
         {/* Image */}
         <img
