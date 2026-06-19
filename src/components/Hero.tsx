@@ -1,4 +1,5 @@
 import { CalendarDays } from "lucide-react";
+import heroImage from "../assets/images/hero-event.jpg";
 
 export default function Hero() {
   return (
@@ -6,7 +7,7 @@ export default function Hero() {
       <div className="hero-content w-full max-w-7xl mx-auto flex-col lg:flex-row-reverse gap-10 px-4">
         {/* Image */}
         <img
-          src="/src/assets/images/hero-event.jpg"
+          src={heroImage}
           alt="Vibe Event"
           className="w-full max-w-sm lg:max-w-md rounded-2xl shadow-2xl"
         />
